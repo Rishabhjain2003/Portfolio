@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(8, 20, 38);
+}
+
+body nav{
+    backdrop-filter: blur(15px);
+    font-family: 'Space Mono';
+}
+
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand-container{
+    margin-left: 1vw;
+}
+
+.navbar-brand{
+    color: #60FFD9;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand:hover{
+    color: #60FFD9;
+}
+
+.navbar-toggler{
+    border: 1px solid #60FFD9;
+    color: #60FFD9;
+}
+
+.navbar-toggler-icon{
+    color: #60FFD9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.collapse{
+    font-size: 13px;
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.nav-item{
+    font-family: 'Space Mono';
+    padding-left: 20px;
+}
+
+.num{
+    font-family: 'Space Mono';
+    color: #60FFD9;
+}
+
+.nav-link{
+    color: #B0CDF1;
+}
+
+.btn-resume{
+    background: #081426;
+    color: #60FFD9;
+    border: 1px solid rgb(96, 255, 217);
+}
+
+.nav-link:hover{
+    color: #60FFD9;
+}
+
+.heading{
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 700;
+    color: #B0CDF1;
+}
+
+.btn-heading{
+    background: #081426;
+    color: #60FFD9;
+    border: 1px solid rgb(96, 255, 217);
+    padding: 15px 35px;
+    font-size: 16px;
+}
+
+.welcome-content-container{
+    padding-left: 5vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.element1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.element1-heading-container{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.element1-heading{
+    font-size: clamp(26px,5vw,40px);
+    color: #B0CDF1;
+}
+
+.h{
+    margin-left: 3vw;
+    background-color: rgb(176, 205, 241);
+    width: 30vw;
+    height: 0.5px;
+}
+
+.element1-content{
+    color: #A9A297;
+    margin-top: 10vh;
+    margin-bottom: auto;
+    text-align: justify;
+}
+
+.element1-pic{
+    display: flex;
+}
+
+.profile-pic{
+    background: linear-gradient(rgba(96,255,217,0.5),rgba(96,255,217,0.5)), url('static/passportpic.jpeg');
+    filter: brightness(70%) contrast(150%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 233px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+.profile-pic:hover{
+    filter: saturate(150%) hue-rotate(10deg) contrast(150%);
+    background: url('static/passportpic.jpeg');
+    background-size: cover;
+}
+
+.profile-pic-border{
+    transform: translateX(7%) translateY(7%);
+    transition: all 1s;
+}
+
+.profile-pic-border:hover{
+    transform: translateX(0) translateY(0);
+}
