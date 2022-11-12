@@ -1,8 +1,10 @@
 body{
-    background-color: rgb(8, 20, 38);
+    background-color: rgb(6, 16, 30);
+    object-fit: cover;
 }
 
 body nav{
+    background: rgba(6, 16, 30, 0.8);
     backdrop-filter: blur(15px);
     font-family: 'Space Mono';
 }
@@ -69,9 +71,13 @@ body nav{
 }
 
 .btn-resume{
-    background: #081426;
+    background: rgb(6, 16, 30);
     color: #60FFD9;
     border: 1px solid rgb(96, 255, 217);
+}
+
+.btn-resume:hover{
+    background: rgb(8, 20, 38);
 }
 
 .nav-link:hover{
@@ -85,11 +91,15 @@ body nav{
 }
 
 .btn-heading{
-    background: #081426;
+    background: rgb(6, 16, 30);
     color: #60FFD9;
     border: 1px solid rgb(96, 255, 217);
     padding: 15px 35px;
     font-size: 16px;
+}
+
+.btn-heading:hover{
+    background: rgb(8, 20, 38);
 }
 
 .welcome-content-container{
@@ -103,6 +113,7 @@ body nav{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .element1-heading-container{
@@ -117,9 +128,9 @@ body nav{
 }
 
 .h{
-    margin-left: 3vw;
+    margin-left: 2vw;
     background-color: rgb(176, 205, 241);
-    width: 30vw;
+    width: 40vw;
     height: 0.5px;
 }
 
@@ -135,7 +146,7 @@ body nav{
 }
 
 .profile-pic{
-    background: linear-gradient(rgba(96,255,217,0.5),rgba(96,255,217,0.5)), url('static/passportpic.jpeg');
+    background: linear-gradient(rgba(0, 150, 114, 0.5),rgba(0, 150, 114, 0.5)), url('static/passportpic.jpeg');
     filter: brightness(70%) contrast(150%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -144,6 +155,7 @@ body nav{
     margin-right: auto;
     margin-left: auto;
     border-radius: 5px;
+    transform: scaleX(-1);
 }
 
 .profile-pic:hover{
@@ -153,10 +165,89 @@ body nav{
 }
 
 .profile-pic-border{
-    transform: translateX(7%) translateY(7%);
+    transform: translateX(-7%) translateY(7%);
     transition: all 1s;
 }
 
 .profile-pic-border:hover{
     transform: translateX(0) translateY(0);
+}
+
+.element1-tech-container{
+    display: flex;
+}
+
+.technology{
+    padding-bottom: 10px;
+}
+
+.tech-bullet{
+    display: inline;
+}
+
+.tech{
+    font-family: 'Space Mono';
+    font-size: 15px;
+}
+
+.element2{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #A9A297;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 0;
+    margin-bottom: auto;
+    overflow-x: auto;
+}
+
+.tabs::-webkit-scrollbar{
+    display: none;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid #60FFD9;
+    font-family: 'Space Mono';
+}
+
+.tab.active {
+    border-left: 2px solid #60FFD9;
+    border-right: 2px solid #60FFD9;
+    border-top: 2px solid #60FFD9;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tab:hover {
+    color: #60FFD9;
+}
+
+.tab-heading{
+    color: #60FFD9;
+    margin-bottom: 10px;
+}
+
+.tab-content {
+    margin-top: 5vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: 'Space Mono';
 }
