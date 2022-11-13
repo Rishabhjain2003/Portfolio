@@ -104,7 +104,8 @@ body nav{
 
 .welcome-content-container{
     padding-left: 5vw;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 20vh;
     display: flex;
     align-items: center;
 }
@@ -191,6 +192,10 @@ body nav{
     font-size: 15px;
 }
 
+#tech:hover{
+    color: #60FFD9;
+}
+
 .element2{
     min-height: 70vh;
     display: flex;
@@ -233,6 +238,7 @@ body nav{
     border-top: 2px solid #60FFD9;
     border-bottom: none;
     border-radius: 5px 5px 0px 0px;
+    color: #60FFD9;
 }
 
 .tab:hover {
