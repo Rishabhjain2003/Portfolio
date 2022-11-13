@@ -273,7 +273,7 @@ body nav{
 }
 .left {
   width: 70%;
-  height: 350px;
+  height: 400px;
   background: url(https://images.unsplash.com/photo-1542662565-7e4b66bae529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80) no-repeat center / cover;
   border-radius: 3px;
 }
