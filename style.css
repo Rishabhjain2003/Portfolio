@@ -110,10 +110,11 @@ body nav{
 }
 
 .element1{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 
 .element1-heading-container{
@@ -148,7 +149,7 @@ body nav{
 .profile-pic{
     background: linear-gradient(rgba(0, 150, 114, 0.5),rgba(0, 150, 114, 0.5)), url('static/passportpic.jpeg');
     filter: brightness(70%) contrast(150%);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 233px;
     height: 300px;
@@ -191,7 +192,7 @@ body nav{
 }
 
 .element2{
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -208,7 +209,6 @@ body nav{
 
 .tabs {
     display: flex;
-    float: left;
     list-style-type: none;
     margin-right: 30px;
     padding: 0;
