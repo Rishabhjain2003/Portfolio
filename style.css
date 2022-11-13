@@ -274,8 +274,11 @@ body nav{
 .left {
   width: 70%;
   height: 400px;
-  background: url(https://images.unsplash.com/photo-1542662565-7e4b66bae529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80) no-repeat center / cover;
+  background:linear-gradient(rgba(17, 60, 64, 0.8),rgba(17, 60, 64, 0.8)), url(https://cdn.wallpapersafari.com/87/87/4jN9Vz.png) no-repeat center / cover;
   border-radius: 3px;
+}
+.left:hover{
+    background: url(https://cdn.wallpapersafari.com/87/87/4jN9Vz.png) no-repeat center / cover;
 }
 .right {
   width: 60%;
@@ -337,4 +340,8 @@ body nav{
     padding: none;
     background: rgba(6, 16, 30, 0.5);
   }
+}
+
+.card{
+    color: #B0CDF1;
 }
