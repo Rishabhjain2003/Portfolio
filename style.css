@@ -76,6 +76,11 @@ body nav{
     border: 1px solid rgb(96, 255, 217);
 }
 
+.btn-resume a{
+    color: #60FFD9;
+    text-decoration: none;
+}
+
 .btn-resume:hover{
     background: rgb(8, 20, 38);
 }
@@ -274,12 +279,41 @@ body nav{
 .left {
   width: 70%;
   height: 400px;
-  background:linear-gradient(rgba(17, 60, 64, 0.8),rgba(17, 60, 64, 0.8)), url(https://cdn.wallpapersafari.com/87/87/4jN9Vz.png) no-repeat center / cover;
+  background:linear-gradient(rgba(17, 60, 64, 0.8),rgba(17, 60, 64, 0.8)), url('./static/Web\ capture_7-5-2023_13117_main--storied-cucurucho-6ad514.netlify.app.jpeg') no-repeat center / cover;
   border-radius: 3px;
 }
 .left:hover{
-    background: url(https://cdn.wallpapersafari.com/87/87/4jN9Vz.png) no-repeat center / cover;
+    background: url('./static/Web\ capture_7-5-2023_13117_main--storied-cucurucho-6ad514.netlify.app.jpeg') no-repeat center / cover;
 }
+
+.left2{
+    background:linear-gradient(rgba(17, 60, 64, 0.8),rgba(17, 60, 64, 0.8)), url('./static/TaskMaster.jpeg') no-repeat center / cover;
+}
+.left2:hover{
+    background: url('./static/TaskMaster.jpeg') no-repeat center / cover;
+}
+
+.left3{
+    background:linear-gradient(rgba(17, 60, 64, 0.8),rgba(17, 60, 64, 0.8)), url('./static/BlockFolio.jpeg') no-repeat center / cover;
+}
+.left3:hover{
+    background: url('./static/BlockFolio.jpeg') no-repeat center / cover;
+}
+
+.left4{
+    background:linear-gradient(rgba(17, 60, 64, 0.8),rgba(17, 60, 64, 0.8)), url('./static/THVS.jpeg') no-repeat center / cover;
+}
+.left4:hover{
+    background: url('./static/THVS.jpeg') no-repeat center / cover;
+}
+
+.left5{
+    background:linear-gradient(rgba(17, 60, 64, 0.8),rgba(17, 60, 64, 0.8)), url('./static/NumberNinja.jpeg') no-repeat center / cover;
+}
+.left5:hover{
+    background: url('./static/NumberNinja.jpeg') no-repeat center / cover;
+}
+
 .right {
   width: 60%;
   height: 400px;
