@@ -380,3 +380,27 @@ body nav{
 .card{
     color: #B0CDF1;
 }
+
+.card-footer{
+    color:#A9A297;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.card-footer i{
+    padding: 20px;
+}
+
+.card-footer li{
+    width: 200px;
+    background-color: #A9A297;
+    height: 1px;
+    font-size: 1px;
+}
+
+.card-footer a{
+    color: #A9A297;
+}
