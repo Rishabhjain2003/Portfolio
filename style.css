@@ -153,7 +153,7 @@ body nav{
 }
 
 .profile-pic{
-    background: linear-gradient(rgba(0, 150, 114, 0.5),rgba(0, 150, 114, 0.5)), url('static/passportpic.jpeg');
+    background: linear-gradient(rgba(0, 150, 114, 0.5),rgba(0, 150, 114, 0.5)), url('static/41421047.jpg');
     filter: brightness(70%) contrast(150%);
     background-size: contain;
     background-repeat: no-repeat;
@@ -166,8 +166,7 @@ body nav{
 }
 
 .profile-pic:hover{
-    filter: saturate(150%) hue-rotate(10deg) contrast(150%);
-    background: url('static/passportpic.jpeg');
+    background: url('static/41421047.jpg');
     background-size: cover;
 }
 
