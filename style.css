@@ -89,6 +89,10 @@ body nav{
     color: #60FFD9;
 }
 
+#typewriter{
+    width: fit-content;
+}
+
 .heading{
     font-size: clamp(40px, 8vw, 80px);
     font-weight: 700;
